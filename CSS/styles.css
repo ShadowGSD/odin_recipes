@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: antiquewhite;
+    background-color: black;
+}
+
+body {
+    border-width: 10px;
+    border-style: dashed;
+    border-color: limegreen;
+    border-radius: 20px;
+}
+
+.header {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav-bar {
+    background-color: purple;
+    border: 10px;
+    padding: 10px;
+    margin: 10px 10px;
+    border-style: groove;
+    border-color: red;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.nav-list li {
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+a {
+    background-color: chocolate;
+    border-width: 10px;
+    border-style: double;
+    border-color: white;
+    padding: 15px;
+    color: aqua;
+    font-size: 20px;
+    font-style: italic;
+}
+
+
+.lasagna-img {
+    display: flex;
+    align-content: center;
+    margin-left: 30px;
+    align-items: center;
+}
+
+.description {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.ingredients {
+    margin-top: 15px;
+    margin-left: 30px;
+    font-size: 18px;
+}
+
+.ingredients li {
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.steps {
+    margin-top: 40px;
+    margin-left: 30px;
+    font-size: 18px;
+}
+
+.steps li {
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+.italian-salad-img {
+
+}
+
+.garlic_bread-img {
+
+}
